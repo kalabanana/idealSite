@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="navfoot.css">
+</head>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+        background-color: white;
+    }
+    footer{
+        background-color: black;
+        color: white;
+    }
+    sec{
+        position: fixed;
+        background: transparent;
+        margin-top: 150px;
+        font-size: 20px;
+        z-index: 1;
+    }
+    #sec ul{
+        list-style-type: none;
+        font-family: "Courier New";
+
+    }
+    #sec ul a:link{
+        text-shadow: 5px 10px white;
+        color: black;
+        font-size: 13px;
+        margin-top: 100px;
+        text-decoration: none;
+        margin-left: -10px;
+
+    }
+    #sec ul a:hover{
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    #sec li{
+        padding: 10px;
+        border-bottom: 2px solid;
+
+    }
+
+    h1{
+        font-family: 'Courier New';
+        font-size: 35px;
+        float: right;
+        clear: both;
+    }
+    div.p{
+        margin-top: 20px;
+        padding: 10px;
+        margin-left: 25%;
+        border: none;
+        float: left;
+        width: 50%;
+        box-shadow: 2px 2px 10px grey;
+        opacity: 1;
+    }
+    div.p img{
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+    div.desc{
+        padding: 10px;
+        text-align: center;
+    }
+    #paint{
+        overflow: hidden;
+        width: 100%;
+    }
+    #paintings{
+        border-bottom: solid;
+    }
+
+    #fashions img{
+        height: 100%;
+        width: 100%;
+    }
+
+    #fashions{
+        border-bottom: solid;
+    }
+
+    #fashion-clip{
+        margin-left: 20%;
+    }
+
+    #fashion-clip img{
+        display: block;
+        clear: both;
+        max-width: 70%;
+        height: 70%;
+    }
+    #photo{
+        border-bottom: solid;
+    }
+    #photo img{
+        display:block;
+        clear: both;
+        margin:auto;
+        height: 80%;
+        width: 80%;
+    }
+
+</style>
+<nav>
+    <ul>
+        <li><a href="index.html">Home /</a></li>
+        <li><a href="momoko.html">Momoko /</a></li>
+        <li><a href="qoutes.html">"       " /</a></li>
+        <li><a href="favorites.html">Favorites /</a></li>
+        <li><a href="#">Gallery /</a></li>
+        <li><a href="about.html">About </a></li>
+        <li class="icon"><a href="index.html">
+            <img src="portfolio/iconf.png" alt="icon" style="height: 65px;width: 65px">
+        </a></li>
+    </ul>
+</nav>
+
+<body>
+<sec id="sec">
+    <ul>
+        <li><a href="#paintings">Painting</a></li>
+        <li><a href="#fashions">Fashion</a></li>
+        <li><a href="#photo">Photography</a></li>
+    </ul>
+</sec>
+
+<article id="paintings">
+    <h1>Paintings</h1>
+    <div id="paint">
+        <div class="p">
+            <a href="portfolio/paint1.jpg">
+                <img src="portfolio/paint1.jpg" alt="painting1" height="50%" width="50%">
+            </a>
+            <div class="desc"><i>In Transit 2014</i></div>
+        </div>
+        <div class="p">
+            <a href="portfolio/paint2.jpg">
+                <img src="portfolio/paint2.jpg" alt="painting2"height="50%" width="50%">
+            </a>
+            <div class="desc"><i>_ask 2014</i></div>
+        </div>
+        <div class="p">
+            <a href="portfolio/paint3.jpg">
+                <img src="portfolio/paint3.jpg" alt="painting3"height="40%" width="40%">
+            </a>
+            <div class="desc"><i>Tomatoes 2016</i></div>
+        </div>
+        <div class="p">
+            <a href="portfolio/paint4.jpg">
+                <img src="portfolio/paint4.jpg" alt="painting4"height="50%" width="50%">
+            </a>
+            <div class="desc"><i>Yunho 2016</i></div>
+        </div>
+
+    </div>
+    <br><br>
+</article>
+
+<article id="fashions">
+    <h1>Fashion Assistant</h1>
+    <article >
+        <img src="portfolio/fashion1.jpg"  alt="fashion1"><br><br>
+        <img src="portfolio/fashion3.jpg" alt="fashion3"><br><br>
+        <img src="portfolio/fashion4.jpg" alt="fashion4"><br><br>
+        <img src="portfolio/fashion6.jpg" alt="fashion6"><br><br>
+        <img src="portfolio/fashion5.jpg" alt="fashion5"><br><br>
+    </article>
+    <article id="fashion-clip">
+        <img src="portfolio/fashion7.jpg"  alt="fashion7"><br><br>
+        <img src="portfolio/fashion8.jpg" alt="fashion8"><br><br>
+    </article>
+</article>
+
+<article id="photo">
+    <h1>Photography</h1>
+    <article>
+        <img src="portfolio/photo1.jpg" alt="photo1"><br><br>
+        <img src="portfolio/photo2.jpg" alt="photo2"><br><br>
+        <img src="portfolio/photo3.jpg" alt="photo3"><br><br>
+    </article>
+</article>
+</body>
+<footer>
+    blah blah blah blah blah blah &#169
+</footer>
+</html>

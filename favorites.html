@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my little favorites things</title>
+    <link rel="stylesheet" type="text/css" href="navfoot.css">
+</head>
+<style>
+    body{
+        background-image: url("portfolio/paper.jpg");
+        height: 100%;
+        width: 100%;
+    }
+    nav{
+        background: transparent;
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+    }
+    div{
+        width: 100%;
+        float: left;
+        margin: auto;
+    }
+
+    #banner{
+        display: block;
+        height: 20%;
+        width: 60%;
+        margin: auto;
+    }
+    #content{
+        text-align: left;
+        counter-reset: section;
+    }
+    h1{
+        text-align: center;
+        font-family: "Comic Sans MS";
+    }
+    h1::before{
+        counter-increment: section;
+        content: "Q" counter(section) ". ";
+    }
+    #content button{
+        display: block;
+        margin: auto;
+    }
+    button{
+        background-color: rgba(255,86,64,0.2);
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 2px solid rgba(255,0,13,0.49);
+        display: block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    #content a{
+        text-decoration: none;
+
+    }
+    #content a:link{
+        color: black;
+        width: 5%;
+        height: 5%;
+    }
+    #content a:visited{
+        color: purple;
+    }
+
+
+
+</style>
+<nav>
+    <ul>
+        <li><a href="index.html">Home /</a></li>
+        <li><a href="momoko.html">Momoko /</a></li>
+        <li><a href="qoutes.html">"       " /</a></li>
+        <li><a href="#">Favorites /</a></li>
+        <li><a href="gallery.html">Gallery /</a></li>
+        <li><a href="about.html">About </a></li>
+        <li class="icon"><a href="index.html">
+            <img src="portfolio/iconf.png" alt="icon" style="height: 60px;width: 60px">
+        </a></li>
+    </ul>
+</nav>
+<body>
+<div>
+    <img id="banner" src="portfolio/my-favorite-things.png" alt="banner">
+</div>
+<div id="content">
+    <h1> Favorite candy:</h1>
+    <a target="_blank" href="favorites/Haribo-Gummy-Bears2.png"><button class="button">View </button></a>
+    <hr>
+    <h1> Favorite colors:</h1>
+    <a target="_blank" href="favorites/color.jpg"><button class="button">View</button></a>
+    <hr>
+    <h1> Favorite ice cream:</h1>
+    <a target="_blank" href="favorites/ice.gif"><button class="button">View</button></a>
+    <hr>
+    <h1> Favorite season:</h1>
+    <a href="favorites/season.jpg"><button class="button">View</button></a>
+    <hr>
+    <h1> Favorite dessert:</h1>
+    <a href="favorites/brulee.jpg"><button class="button">View</button> </a>
+    <hr>
+    <h1> Favorite way to spend a Saturday:</h1>
+    <a href="favorites/geyou.png"><button class="button">View</button></a>
+    <hr>
+    <h1> Favorite song:</h1>
+    <a href="favorites/song.jpg"><button class="button">View</button></a>
+    <hr>
+    <h1> Favorite book:</h1>
+    <a href="favorites/book.png"><button class="button">View</button></a>
+    <hr>
+    <h1> Favorite band of music:</h1>
+    <a href="favorites/dbsk.jpg"><button class="button">View</button></a>
+    <hr>
+    <h1> Favortie game:</h1>
+    <a href="favorites/ga.jpg"><button class="button">View</button></a>
+    <hr>
+    <h1> Favorite movie: </h1>
+    <a href="favorites/cartoon.jpg"><button class="button">View</button></a>
+</div>
+
+</body>
+<footer>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &#169
+</footer>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite "   "s</title>
+    <link rel="stylesheet" type="text/css" href="navfoot.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    footer{
+        background-color: black;
+        color: white;
+    }
+    div{
+        display: flex;
+        float: left;
+        background: white;
+    }
+    div.img{
+        display: flex;
+        float: left;
+        margin:auto;
+    }
+    div.text{
+        float: left;
+        width: 40%;
+        height: 100%;
+        padding: 30px;
+        margin:auto;
+    }
+    #clock{
+        animation: spin 10s 1 ease-in-out;
+        }
+
+    @keyframes spin {
+        to{
+            transform: rotate(1turn);
+        }
+
+    }
+
+
+</style>
+<nav>
+    <ul>
+        <li><a href="index.html">Home /</a></li>
+        <li><a href="momoko.html">Momoko /</a></li>
+        <li><a href="#">"       " /</a></li>
+        <li><a href="favorites.html">Favorites /</a></li>
+        <li><a href="gallery.html">Gallery /</a></li>
+        <li><a href="about.html">About </a></li>
+        <li class="icon"><a href="index.html">
+            <img src="portfolio/iconf.png" alt="icon" style="height: 60px;width: 60px">
+        </a></li>
+    </ul>
+</nav>
+<body>
+
+<div style="border-bottom: solid;margin: 20px">
+    <div class="img">
+        <img id="clock" src="portfolio/clock-bai.svg" alt="clock" width="50%" height="50%">
+        <div class="text">
+            <code><q><i>…for us physicists believe the separation between
+                <span style="font-size: 17px"><b>past, present, and future</b></span>
+                is only an illusion, although a convincing one.</i></q><br><br>
+                - Albert Einstein
+            </code>
+        </div>
+    </div>
+</div>
+
+<div style="border-bottom: solid;margin: 20px">
+    <div class="img">
+        <div class="text">
+            <code><q><i> _________ <span style="font-size: 17px"><b>Art</b></span> is never finished, only abandoned.</i></q><br><br>
+                - Leonardo Da Vinci
+            </code>
+        </div>
+        <img src="portfolio/davinci.png" alt="davinci" width="40%" height="40%" style="padding: 20px">
+    </div>
+</div>
+
+<div style="border-bottom: solid; margin: 20px">
+    <div class="img">
+        <img src="portfolio/chuchap.jpg" alt="duchamp" width="50%" height="50%">
+        <div class="text">
+            <code><q><i>Since the tubes of paint used by the artist are
+                manufactured and ready made products
+                we must conclude that all the paintings
+                in the world are <span style="font-size: 17px"><b>‘readymades aided’</b></span>
+                and also works of assemblage.</i></q><br><br>
+                - Marcel Duchamp
+            </code>
+        </div>
+    </div>
+</div>
+
+<div style="border-bottom: solid; margin: 20px">
+    <div class="img">
+        <div class="text">
+            <code><q><i> <span style="font-size: 17px"><b>Bad</b></span> artists copy. .<span style="font-size: 17px"><b>Good</b></span> artists steal.</i></q><br><br>
+                - Pablo Picasso
+            </code>
+        </div>
+        <img src="portfolio/pablopicasso.jpg" alt="plablopicasso" width="50%" height="50%" style="padding: 20px">
+    </div>
+</div>
+
+</body>
+<footer>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &#169
+</footer>
+</html>
